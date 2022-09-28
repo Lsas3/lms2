@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 150vh;
+}
+
+/* ESTILOS DE HEADER */
+header{
+    height: 10vh;
+    width: 100%;
+    background-color: red;
+}
+
+nav ul{
+    text-align: center;
+    margin-right: 13%;
+    width: auto;
+}
+nav ul li{
+    display: inline-block;
+    background-color: white;
+    padding: 5px 35px;
+    margin-top: 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    background-color: white;
+}
+.logo{
+    border: 1px solid black;
+    width: 20%;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: bisque;
+    float: left;
+    padding-right: 0px;
+}
+.img-logo{
+    height: 100%;
+    
+    
+}
+
+/* ESTILOS DE MAIN */
+main{
+    background-color: lightslategray;
+    width: 100%;
+    height: 130%;
+    padding: 7px 5px 7px 5px;
+}
+#empresa {
+    background-color: rgb(211, 211, 211);
+    text-align: center;
+    width: 49%;
+    height: 200px;
+    top: 20px;
+    float: left;
+    padding-bottom: 60%;
+    border-style: solid;
+}
+#personal {
+    background-color: rgb(211, 211, 211);
+    text-align: center;
+    width: 49%;
+    height: 200px;
+    float: right;
+    padding-bottom: 60%;
+    border-style: solid;
+}
+.imagen-np{
+    width: 89%;
+    margin-top: 15%;
+    margin-left: 2%
+}
+.clientes{
+    background-color: bisque;
+    text-align: center;
+    border-style: solid;
+    margin-top:61%;
+    padding-bottom: 120px;
+}
+
+#clientes-div{
+    background-color: rgb(211, 211, 211);
+    text-align: center;
+    width: 97%;
+    height: 46vh;
+    margin-top: 11px;
+}
+#clientes-div{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+#cliente1{
+    background-color: rgb(0, 132, 255);
+    display: inline-block;
+    width: 20%;
+    height: 80%;
+}
+
+#cliente2{
+    background-color: rgb(0, 132, 255);
+    width: 20%;
+    display: inline-block;
+    height: 80%;
+}
+
+#cliente3{
+    background-color: rgb(190, 149, 71);
+    display: inline-block;
+    width: 20%;
+    height: 80%;
+}
+
+
+/* ESTILOS DE FOOTER */
+footer{
+    height: 10vh;
+    width: 100%;
+    background-color: red;
+}
