@@ -49,6 +49,11 @@ nav ul li a{
     
     
 }
+.encabezado__redsocial {
+        width: 30px;
+        float: right;
+        margin-right: 10px;
+}
 
 /* ESTILOS DE MAIN */
 main{
