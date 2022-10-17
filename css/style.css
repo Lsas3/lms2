@@ -8,13 +8,17 @@
 body{
     width: 100vw;
     height: 150vh;
+    max-width: 100%;
 }
 
 /* ESTILOS DE HEADER */
 header{
     height: 10vh;
     width: 100%;
-    background-color: red;
+    background-color: rgb(114, 107, 107);
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 nav ul{
@@ -24,23 +28,24 @@ nav ul{
 }
 nav ul li{
     display: inline-block;
-    background-color: white;
-    padding: 5px 35px;
+    text-transform: uppercase;
+    padding: 5px 25px;
     margin-top: 16px;
-    border: 2px solid black;
-    border-radius: 5px;
 }
+
 nav ul li a{
     text-decoration: none;
-    background-color: white;
+    color:white;
 }
 .logo{
-    border: 1px solid black;
-    width: 20%;
+    font-weight: bold;
+    color:white;
+    font-size: 30px;
+    text-decoration: none;
+    width: max-content;
     height: 50px;
     margin-top: 10px;
     margin-left: 30px;
-    background-color: bisque;
     float: left;
     padding-right: 0px;
 }
@@ -50,42 +55,41 @@ nav ul li a{
     
 }
 .encabezado__redsocial {
-        width: 30px;
+        width: 25px;
         float: right;
-        margin-right: 10px;
+        margin-right: 15px;
+        position: relative;
+        bottom: 25px;
 }
 
 /* ESTILOS DE MAIN */
 main{
-    background-color: lightslategray;
     width: 100%;
     height: 130%;
     padding: 7px 5px 7px 5px;
+    background-image: url(../image/3d.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    max-width: 100%;
 }
 #empresa {
-    background-color: rgb(211, 211, 211);
     text-align: center;
     width: 49%;
     height: 200px;
-    top: 20px;
     float: left;
     padding-bottom: 60%;
-    border-style: solid;
-}
-#personal {
-    background-color: rgb(211, 211, 211);
-    text-align: center;
-    width: 49%;
-    height: 200px;
-    float: right;
-    padding-bottom: 60%;
-    border-style: solid;
 }
 .imagen-np{
     width: 89%;
     margin-top: 15%;
     margin-left: 2%
 }
+.img-empresa{
+    width: 89%;
+    margin-top: 15%;
+    margin-left: 2%
+}
+
 .clientes{
     background-color: bisque;
     text-align: center;
@@ -134,5 +138,5 @@ main{
 footer{
     height: 10vh;
     width: 100%;
-    background-color: red;
+    background-color:  rgb(114, 107, 107);;
 }
